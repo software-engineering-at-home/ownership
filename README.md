@@ -17,3 +17,12 @@ A command and control project to keep software packages up-to-date and in workin
 See: repos.txt for a list of current projects under the ownership and guidance of this organisation.
 
 
+## Software Updates
+
+Using [`jumper`](https://github.com/connected-web/jumper); run the following commands to performance maintenance on this org's repos:
+
+Install jumper: 
+- `npm i -g github:connected-web/jumper`
+
+Audit repos dependencies: 
+- `jumper --strategy audit --repoList ./repos.txt --reference ownership`
