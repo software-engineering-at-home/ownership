@@ -16,6 +16,16 @@ A command and control project to keep software packages up-to-date and in workin
 
 See: repos.txt for a list of current projects under the ownership and guidance of this organisation.
 
+## Setup
+
+Assuming you have [SSL configured for Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh), you can initialise the local repos using the following commands:
+
+- `mkdir seat`
+- `cd seat`
+- `git clone git@github.com:software-engineering-at-home/ownership.git`
+- `git clone git@github.com:software-engineering-at-home/branding.git`
+- `git clone git@github.com:software-engineering-at-home/content.git`
+- `git clone git@github.com:software-engineering-at-home/website.git`
 
 ## Software Updates
 
